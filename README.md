@@ -42,7 +42,7 @@ If you prefer to run the application using Docker, make sure you have Docker ins
 `docker build -t flask-mongo-crud 
 docker run -p 5000:5000 flask-mongo-crud`
 
-###Running the Application
+### Running the Application
 To run the application locally, execute:
 `python run.py`
 
