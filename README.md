@@ -29,15 +29,15 @@ cd your-repository `
 `python -m venv venv
 source venv/bin/activate  # On Windows use venv\Scripts\activate`
 
-###Install Dependencies
+### Install Dependencies
 Make sure you have requirements.txt in the root directory. Install the dependencies:
 `pip install -r requirements.txt`
 
-###Set Up Environment Variables
+### Set Up Environment Variables
 Create a .env file in the root directory of your project and add the following:
 `MONGO_URI="mongodb+srv://<username>:<password>@cluster0.l8zlb.mongodb.net/flask_mongo_crud?retryWrites=true&w=majority"`
 
-###Docker Setup 
+### Docker Setup 
 If you prefer to run the application using Docker, make sure you have Docker installed and run:
 `docker build -t flask-mongo-crud 
 docker run -p 5000:5000 flask-mongo-crud`
