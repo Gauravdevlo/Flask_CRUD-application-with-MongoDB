@@ -1,0 +1,6 @@
+Flask
+python-dotenv
+pymongo
+Flask-RESTful
+Flask-Bcrypt
+dnspython
